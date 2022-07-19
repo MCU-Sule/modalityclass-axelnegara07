@@ -1,0 +1,23 @@
+2072029 - Axel Shira Sapata Negara
+https://github.com/MCU-Sule/modalityclass-axelnegara07
+
+- how to prevent null from closing window
+Menggunakan if untuk mengecek apakah nilai nama dan harga tersebut kosong, kalau kosong maka tidak akan menampilkan isi
+ 
+- how to know if a modal succeed or fail
+Jika program menampilkan data yang di input maka modal tersebut succeed. Jika tidak menampilkan isi, maka modal tersebut fail
+
+- how do we sort listview by name
+Menggunakan Comparator. Menambahkan item baru kedalam arraylist, sort arraylist tersebut menggunakan comparator. Sort list nya berdasarkan nama(comparing.(MenuItem::getName))
+
+- how do we sort listview by price
+Menggunakan Comparator. Menambahkan item baru kedalam arraylist, sort arraylist tersebut menggunakan comparator. Sort list nya berdasarkan price (comparingDouble.(MenuItem::getPrice))
+
+- how to show sub menu (context menu) on right click on list view
+Menggunakan contextMenu. Pada listView di isi dengan contextMenu yang berisi MenuItem
+
+- how to delete data from right click menu
+Menambahkan menuItem.setOnAction({variabel bebas}) yang berisikan fungsi untuk remove index yang di klik
+
+- if you want user to be able to order from menu what file needed to be modified /added (explain those file) ?
+Menambahkan script scene builder (sesuai selera dan imajinasi), file order di entity (pada entity berisi id, nama, jumlah, harga, dll yang diperlukan), order di controller (pada controller berisi fungsi add, update, delete, dll yang diperlukan).
